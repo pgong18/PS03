@@ -3,15 +3,15 @@ title: 'STAT/MATH 495: Problem Set 03'
 author: "Pei Gong"
 date: '2017-09-26'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '2'
   html_document:
     collapsed: no
     smooth_scroll: no
     toc: yes
     toc_depth: 2
     toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
 ```{r setup, include=FALSE}
@@ -225,7 +225,7 @@ search_df_data2<-function(range){
    }
 ```
 
-##Step 4:why choose df=31, visualization of model,$\widehat{\sigma}$=RMSE=15.10558
+##Step 4:why choose df=31, visualization of model,$\widehat{\sigma}$=RMSE=24.91260
 * Find the splines model with the best out-of-sample predictive ability.
   $$df=31$$
 * Create a visualizaztion arguing why you chose this particular model.
